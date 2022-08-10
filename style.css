@@ -1,5 +1,5 @@
 *{
-    margin-top: 0px;
+    margin-top: 5px;
     padding: 0px;
 }
 .calculator{
@@ -30,8 +30,15 @@ td input{
 #display-box{
     display: flex;
     color: white;
-    flex-direction: row-reverse;
 }
 .display-box{
-    text-align:end;
+    padding-left: 330%;
+    font-size: 4rem;
+    font-weight: 520;
+}
+.copyright{
+    text-align: center;
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 20px;
 }
